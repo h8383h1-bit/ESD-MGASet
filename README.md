@@ -34,7 +34,7 @@ Renji ESD does not provide instrument bounding boxes, while some bounding boxes 
 
 Representative keyframes were selected based on inter-frame structural similarity (SSIM) and manually annotated. A YOLOv11s detector was trained to generate bounding boxes for the remaining frames, followed by outlier detection and manual correction. X-AnyLabeling was used to assist the annotation process.
 
-![Semi-automatic instrument bounding box annotation pipeline](figures/annotation_pipeline.png)
+![Semi-automatic instrument bounding box annotation pipeline](annotation_pipeline.png)
 
 *Figure 1. Overview of the semi-automatic instrument bounding box annotation pipeline.*
 
